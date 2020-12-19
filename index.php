@@ -46,7 +46,7 @@ include_once "controller/getLastCountries.php";
   <section class="jumbotron text-center">
     <div class="container">
       <h1>What's this?</h1>
-      <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+      <p class="lead text-muted">Let's learn about the World and Countries and their Caltures or religions or Languages and etc. have a look and increase your knowledge about the World and its countries. Have Fun!!</p>
       <div class="col-6 mx-auto mt-5">
       <form method="post">
       <div class="row">
@@ -76,8 +76,8 @@ include_once "controller/getLastCountries.php";
     <p class="float-right">
       <a href="#">Back to top</a>
     </p>
-    <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="/docs/4.5/getting-started/introduction/">getting started guide</a>.</p>
+    <p>This Project is Belong to Alireza Moradbakhti for Database project</p>
+    <p>have any suggestions? , you can find my Email in the header :)</p>
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
