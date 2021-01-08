@@ -48,13 +48,13 @@ include_once "controller/getLastCountries.php";
       <h1>What's this?</h1>
       <p class="lead text-muted">Let's learn about the World and Countries and their Caltures or religions or Languages and etc. have a look and increase your knowledge about the World and its countries. Have Fun!!</p>
       <div class="col-6 mx-auto mt-5">
-      <form method="post">
+      <form method="get">
       <div class="row">
           <div class="col-9">
-            <input type="text" style="border-radius:50px;" class="form-control" id="txtSearch" name="txtSearch" placeholder="Enter a country name." />
+            <input type="text" style="border-radius:50px;" class="form-control" value="<?=(!empty($_GET['search'])) ? $_GET['search'] : ''; ?>" id="search" name="search" placeholder="Enter a country name." />
           </div>
           <div class="col-3">
-            <button type="submit" id="searchBtn" style="border-radius:50px;" name="searchBtn" class="btn btn-primary form-control">Search</button>
+            <button type="submit" style="border-radius:50px;" class="btn btn-primary form-control">Search</button>
           </div>
         </div>
         

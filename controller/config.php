@@ -1,4 +1,6 @@
 <?php
+define('_separator','#@#');
+
 $__host = "localhost";
 $__user = "root";
 $__pass = "";
